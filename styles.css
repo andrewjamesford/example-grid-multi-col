@@ -1,0 +1,12 @@
+.shopItems {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media only screen and (min-width: 30rem) {
+  .shopItems {
+    grid-template-columns: 1fr 1fr;
+  }
+}
